@@ -34,16 +34,15 @@ It allows users to browse products, search, filter, and manage their cart or fav
 
 ##  Tech Stack
 
-```bash
-Frontend: React.js (Vite)
-Language: JavaScript (ES6+)
-Styling: Custom CSS (Responsive)
-API: DummyJSON (https://dummyjson.com/products)
-Routing: React Router DOM
-Deployment: GitHub Pages
+**Frontend:** React.js (Vite)  
+**Language:** JavaScript (ES6+)  
+**Styling:** Custom CSS (Responsive)  
+**API:** [DummyJSON](https://dummyjson.com/products)  
+**Routing:** React Router DOM  
+**Deployment:** GitHub Pages  
 
 ---
 
-## 🚀 Live Demo
+##  Live Demo
 
 **[View Live App](https://hadiamushtaq-dev.github.io/Shoppily)**
