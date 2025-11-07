@@ -42,6 +42,8 @@ API: DummyJSON (https://dummyjson.com/products)
 Routing: React Router DOM
 Deployment: GitHub Pages
 
-##  Live Demo
+---
 
- **[View Live App](https://hadiamushtaq-dev.github.io/Shoppily)**
+## 🚀 Live Demo
+
+**[View Live App](https://hadiamushtaq-dev.github.io/Shoppily)**
