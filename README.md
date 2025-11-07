@@ -1,18 +1,46 @@
-# React + Vite
+#  React Shopping App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive shopping web app built with **React.js**.  
+It allows users to browse products, search, filter, and manage their favorite items — all in one smooth and interactive interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features
 
-## React Compiler
+ **Product Listing** – Displays a list of products fetched from an API  
+ **Search Functionality** – Users can search products by name or keyword  
+ **Category & Stock Filters** – Filter products based on stock availability or category  
+ **Favorites/Wishlist** – Save and remove products from favorites easily  
+ **Add to Cart** – Add, remove, and view items in your shopping cart  
+ **State Management with React Hooks** – Uses `useState` and `useEffect` for all state logic  
+ **Lifted State Up** – Ensures communication between components  
+ **Clean Component Structure** – Reusable and modular React components  
+ **Responsive Design** – Works smoothly on mobile and desktop  
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+##  Concepts Used
 
-## Expanding the ESLint configuration
+- **React Functional Components**
+- **useState** for managing data  
+- **useEffect** for fetching API data  
+- **Props drilling and lifting state up**  
+- **Conditional rendering**
+- **Event handling and DOM interaction**
+- **Array methods (`map`, `filter`,`reduce` etc.)** for logic  
+- **Reusable components**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+##  Tech Stack
+
+```bash
+Frontend: React.js, HTML5, CSS3  
+Icons: Lucide React / Font Awesome  
+API: DummyJSON (https://dummyjson.com/products)  
+Styling: Custom CSS (Responsive)
+
+---
+
+##  Live Demo
+
+ **Check it out here:** 'https://HadiaMushtaq-Dev.github.io/Shoppily'
