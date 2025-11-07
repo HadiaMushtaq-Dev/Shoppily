@@ -1,46 +1,47 @@
-#  React Shopping App
+#  React Shopping App — Shoppily
 
-A modern and responsive shopping web app built with **React.js**.  
-It allows users to browse products, search, filter, and manage their favorite items — all in one smooth and interactive interface.
+A modern and responsive **e-commerce web app** built with **React.js (Vite)**.  
+It allows users to browse products, search, filter, and manage their cart or favorites — all in one smooth and interactive interface.
 
 ---
 
 ##  Features
 
- **Product Listing** – Displays a list of products fetched from an API  
- **Search Functionality** – Users can search products by name or keyword  
- **Category & Stock Filters** – Filter products based on stock availability or category  
- **Favorites/Wishlist** – Save and remove products from favorites easily  
- **Add to Cart** – Add, remove, and view items in your shopping cart  
- **State Management with React Hooks** – Uses `useState` and `useEffect` for all state logic  
- **Lifted State Up** – Ensures communication between components  
- **Clean Component Structure** – Reusable and modular React components  
- **Responsive Design** – Works smoothly on mobile and desktop  
+- **Product Listing** – Displays products fetched from the DummyJSON API  
+- **Search Functionality** – Search products by name or keyword  
+- **Category Filter** – Filter products by category  
+- **Favorites/Wishlist** – Add and remove items easily  
+- **Cart Management** – Add, remove, and adjust quantity in cart  
+- **Protected Routes** – Wishlist & Cart require login  
+- **State Management with React Hooks** – Managed using `useState` & `useEffect`  
+- **Lifted State Up** – Shared data across components  
+- **Responsive Design** – Works smoothly across mobile and desktop  
 
 ---
 
 ##  Concepts Used
 
 - **React Functional Components**
-- **useState** for managing data  
-- **useEffect** for fetching API data  
-- **Props drilling and lifting state up**  
+- **React Hooks**: `useState`, `useEffect`, `useContext`
+- **Props drilling & state lifting**
 - **Conditional rendering**
-- **Event handling and DOM interaction**
-- **Array methods (`map`, `filter`,`reduce` etc.)** for logic  
-- **Reusable components**
+- **Event handling**
+- **Array methods** (`map`, `filter`, `reduce`)
+- **Reusable modular components**
+- **LocalStorage persistence**
 
 ---
+
 ##  Tech Stack
 
 ```bash
-Frontend: React.js, HTML5, CSS3  
-Icons: Lucide React / Font Awesome  
-API: DummyJSON (https://dummyjson.com/products)  
+Frontend: React.js (Vite)
+Language: JavaScript (ES6+)
 Styling: Custom CSS (Responsive)
-
----
+API: DummyJSON (https://dummyjson.com/products)
+Routing: React Router DOM
+Deployment: GitHub Pages
 
 ##  Live Demo
 
- **Check it out here:** 'https://HadiaMushtaq-Dev.github.io/Shoppily'
+ **[View Live App](https://hadiamushtaq-dev.github.io/Shoppily)**
