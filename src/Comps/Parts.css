@@ -198,11 +198,7 @@
         width: 70%;
     }
 }
-/* @media(max-width:1200px){
-    .productDetails{
-        width: 100%;
-    }
-} */
+
 @media (max-width:1000px){
     
     .menu{
@@ -248,6 +244,20 @@
    .cont2{
     width: 100%;
    }
-   
-   
+   .logo p{
+    font-size: 1.4rem;
+   }
+   .logo img{
+    font-size: 5rem;
+   }
+   .nav-small{
+    width: 35vw;
+   }
+   .srch{
+    flex-direction: column;
+   }
+   .srch input,.srch select{
+    width: 100%;
+    margin: 2vh 0;
+   }
 }
