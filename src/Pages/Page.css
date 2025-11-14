@@ -403,6 +403,7 @@ form p{
 }
 @media (max-width:786px){
     .home1 {
+        width: 95%;
        flex-direction: column-reverse;
        justify-content: center;
        align-items: center;
@@ -441,11 +442,16 @@ form p{
     }
     .cart{
         width: 100%;
+        
     }
     .form1,.cart1{
         width: 100%;
         
     }
+    .cart1{
+        border: none;
+    }
+
    
    .item{
     width: 100%;
@@ -480,10 +486,7 @@ form p{
      .account form{
         width: 80%;
     }
-    .alert{
-        width: 65%;
-        left: 20%;
-    }
+  
     .cross{
         width: 15%;
     }
