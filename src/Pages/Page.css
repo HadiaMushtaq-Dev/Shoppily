@@ -436,6 +436,7 @@ form p{
     .alert{
         width: 80%;
         left: 10%;
+        height: 35vh;
     }
      .home1{
         width: 95%;
@@ -477,6 +478,13 @@ form p{
    }
   .loader{
     display: none;
+  }
+  .view{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .view .view1{
+    margin: 1vh 0;
   }
 }
 @media (max-width:680px){
