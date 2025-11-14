@@ -245,13 +245,13 @@
     width: 100%;
    }
    .logo p{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
    }
    .logo img{
     font-size: 5rem;
    }
    .nav-small{
-    width: 35vw;
+    width: 40vw;
    }
    .srch{
     flex-direction: column;
@@ -260,4 +260,7 @@
     width: 100%;
     margin: 2vh 0;
    }
+.log0{
+    width: 45%;
+}
 }
